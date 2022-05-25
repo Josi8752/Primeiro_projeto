@@ -1,24 +1,112 @@
-:root{
-   ---colorbackgroud--whitef7: #F7F5F0;
+:root {
+  --colorbackgroud--whitef: #f7f5f0;
+  --colorbackgroud--white: #fff;
+  --colorh3_rodape--: #502314;
+  --colorp--: #000000;
+  --colorborder1--: #f5ebdc;
+  --colorbackgroudbutton: #f5f3f0;
+  --colordotextoadicionar--: #2d2d2d;
 }
 
-
-body{
-    background-color: var(---colorbackgroud--whitef7)  ;
+body {
+  background-color: var(---colorbackgroud--whitef7);
+  font-family: "Nunito", sans-serif;
+max-width: 1330px;
 }
 
-.container{
-    margin: 0 auto;
-    padding: 30px;
-    max-width: 1330px;
+.container {
+  margin: 0 auto;
+  padding: 30px;
+  
 }
-.cabecalho .container{
-    display: flex;
+.cabecalho .container {
+  display: flex;
   justify-content: space-between;
 }
 
+.banner img {
+  width: 100%;
+}
 
+.secaoProdutos {
+  background-color: var(---colorbackgroud--whitef7);
+  align-items: center;
+}
+.secaoProdutos .listaProdutos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.secaoProdutos .cardProdutos {
+  text-align: center;
+  background-color: var(---colorbackgroud--white);
+  width: 233px;
+  height: 373px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: 2px solid var(--colorborder1--);
+  border-radius: 15px;
+}
 
-.header-cabecalho img{
+.secaoProdutos .cardProdutos h3 {
+  font-weight: 700;
+  font-size: 20px;
+  max-width: 160px;
+  color: var(--colorh3--);
+  margin: 28px auto;
+}
+.secaoProdutos .cardProdutos p {
+  font-weight: 700;
+  color: var(--colorp--);
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.secaoProdutos .cardProdutos button {
+  background: var(--colorbackgroudbutton);
+  border: none;
+  border-radius: 8px;
+  width: 177px;
+  height: 41px;
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--colordotextoadicionar--);
+  cursor: pointer;
+}
+.rodape {   
+width: 1350px;
+height: 146px;
+background: var(--colorh3_rodape--);
+border-radius: 32px 32px 0px 0px;
 
 }
+.rodape .carrinho{
+
+margin-top: -15px;   
+
+font-weight: 500;
+font-size: 32px;
+color: var(--colorbackgroud--whitef);
+
+}
+.rodape .carrinho p{
+font-family: 'Nunito';
+font-style: italic;
+font-weight: 200;
+font-size: 20px;
+color: var(--colorbackgroud--whitef);
+margin-top: 10px;
+}
+
+.rodape .total{
+width: 221px;
+height: 44px;
+font-weight: 400;
+font-size: 32px;
+color: var(--colorbackgroud--whitef);
+margin-left: 970px;
+margin-top: -70px;
+}
+
+
