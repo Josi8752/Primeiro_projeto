@@ -122,23 +122,22 @@
      padding: 30px;
        
      margin-top: 90px;
-      margin-left: 80px ; 
-      width: 1000px;
+      margin-left: -20px ; 
+      width: 950px;
       height: 130px;
-      
+    
       background: var(--colorbackgroudbutton);
       border-radius: 15px;
       border: none;
-    align-items: center;
-   
+     align-items: center;
+
     }
     .request-rectangle img{
       margin-top: -20px;
     }
      
       .request-rectangle p{
-        margin-left: 180px;
-        margin-top: -60px;
+       
         width: 177px;
         height: 30px;
 
@@ -147,13 +146,18 @@
         font-style: normal;
         font-weight: 700;
         font-size: 22px;
+        display: flex;
+        align-items: center;
+        margin-top: -55px;
+        margin-left: 170px;
+
 
         color: var(--colorh3_rodape--);
 
     }
 
-      .preco{
-        margin-left: 850px;
+      .price{
+        margin-left: 740px;
         margin-top: -65px;
         width: 93px;
         height: 33px;
@@ -172,12 +176,12 @@
       }
       
       .bin{
-      padding: 10px 22px;
+      padding: 5px 12px;
        
-      margin-left: 960px;
-        margin-top: -60px;
-        width: 60px;
-        height: 51px;
+      margin-left: 855px;
+        margin-top: -55px;
+        width: 40px;
+        height: 40px;
         
         background: var(--colorE6--);
         border-radius: 4px;
@@ -186,9 +190,9 @@
       .button_footer {
         border: none;
         cursor: pointer;
-      list-style-type:none;
-   margin-left: 1100px;
-   margin-top: -100px;
+       list-style-type:none;
+       margin-left: 950px;
+       margin-top: -100px;
   }
      
       .button_footer .Finalization-buttons button{
