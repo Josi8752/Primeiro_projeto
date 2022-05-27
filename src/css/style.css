@@ -1,52 +1,55 @@
-:root {
-  --colorbackgroud--whitef: #f7f5f0;
-  --colorbackgroud--white: #fff;
-  --colorh3_rodape--: #502314;
-  --colorp--: #000000;
-  --colorborder1--: #f5ebdc;
-  --colorbackgroudbutton: #f5f3f0;
-  --colordotextoadicionar--: #2d2d2d;
+  :root {
+    --colorbackgroud--whitef: #f7f5f0;
+    --colorbackgroud--white: #fff;
+    --colorh3_rodape--: #502314;
+    --colorp--: #000000;  
+    --colorborder1--: #f5ebdc;
+    --colorbackgroudbutton: #f5f3f0;
+    --colordotextoadicionar--: #2d2d2d;
+    --colorE6--: #E6E6E6;
+--colorDB--:#DB3B1D;
+  }
+
+  body {
+    background-color: var(---colorbackgroud--whitef7);
+    font-family: "Nunito", sans-serif;
+  max-width: 1330px;
+ 
 }
 
-body {
-  background-color: var(---colorbackgroud--whitef7);
-  font-family: "Nunito", sans-serif;
-max-width: 1330px;
-}
+  .container {
+    margin: 0 auto;
+    padding: 30px;
+    
+  }
+  .cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.container {
-  margin: 0 auto;
-  padding: 30px;
-  
-}
-.cabecalho .container {
-  display: flex;
-  justify-content: space-between;
-}
+  .banner img {
+    width: 100%;
+  }
 
-.banner img {
-  width: 100%;
-}
-
-.secaoProdutos {
-  background-color: var(---colorbackgroud--whitef7);
-  align-items: center;
-}
-.secaoProdutos .listaProdutos {
-  display: flex;
-  flex-wrap: wrap;
-}
-.secaoProdutos .cardProdutos {
-  text-align: center;
-  background-color: var(---colorbackgroud--white);
-  width: 233px;
-  height: 373px;
-  padding-top: 10px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  border: 2px solid var(--colorborder1--);
-  border-radius: 15px;
-}
+  .secaoProdutos {
+    background-color: var(---colorbackgroud--whitef7);
+    align-items: center;
+  }
+  .secaoProdutos .listaProdutos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secaoProdutos .cardProdutos {
+    text-align: center;
+    background-color: var(---colorbackgroud--white);
+    width: 233px;
+    height: 373px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border: 2px solid var(--colorborder1--);
+    border-radius: 15px;
+  }
 
 .secaoProdutos .cardProdutos h3 {
   font-weight: 700;
@@ -108,5 +111,84 @@ color: var(--colorbackgroud--whitef);
 margin-left: 970px;
 margin-top: -70px;
 }
+ 
+.pedido{
+padding: 20px;
+  margin-top: 90px;
+ margin-left: 50px ; 
+width: 1063px;
+height: 130px;
+background: var(--colorbackgroudbutton);
+border-radius: 15px;
 
+border: none;}
+.pedido img{
+  margin-top: -20px;
+}
+.pedido p{
+  margin-left: 170px;
+margin-top: -60px;
+}
+.preco{
+  margin-left: 890px;
+  margin-top: -70px;
+  width: 93px;
+  height: 33px;
+ 
+  font-family: 'Nunito';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 24px;
 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: var(--colordotextoadicionar--);
+  
+}
+.cifrao{}
+.lixeira{
+padding: 10px 22px;
+  margin-left: 1000px;
+  margin-top: -60px;
+  width: 60px;
+  height: 51px;
+  
+  background: var(--colorE6--);
+  border-radius: 4px;
+}
+
+ button{
+ 
+  border: none;
+  cursor: pointer;
+}
+.buttonsFinal button {
+  box-sizing: border-box;
+  
+
+width: 219px;
+height: 51px;
+margin-left: 1150px;
+
+  background: var(--colorDB--);
+border: 4px solid var(--colorDB--);
+border-radius: 10px;
+}
+.buttons2 button{
+ text-align: center;
+  box-sizing: border-box;
+
+width: 219px;
+height: 51px;
+margin-left: 1150px;
+border: 4px solid var(--colorDB--);
+border-radius: 10px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+color: var(--colorDB--);
+
+}
