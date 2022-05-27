@@ -118,19 +118,33 @@
       margin-top: -70px;
       }
       
+<<<<<<< HEAD
       .request-rectangle{
      padding: 30px;
        
      margin-top: 90px;
       margin-left: -20px ; 
       width: 950px;
+=======
+      .pedido-rectangle{
+       padding: 30px;
+       
+       margin-top: 90px;
+      margin-left: 80px ; 
+      width: 1000px;
+>>>>>>> 6c7d5a08999a1a8879cf4c5bbd97cc9525621012
       height: 130px;
     
       background: var(--colorbackgroudbutton);
       border-radius: 15px;
       border: none;
+<<<<<<< HEAD
      align-items: center;
 
+=======
+      align-items: center;
+   
+>>>>>>> 6c7d5a08999a1a8879cf4c5bbd97cc9525621012
     }
     .request-rectangle img{
       margin-top: -20px;
@@ -175,6 +189,7 @@
         
       }
       
+<<<<<<< HEAD
       .bin{
       padding: 5px 12px;
        
@@ -182,6 +197,15 @@
         margin-top: -55px;
         width: 40px;
         height: 40px;
+=======
+      .lixeira{
+        padding: 10px 22px;
+       
+        margin-left: 960px;
+        margin-top: -60px;
+        width: 60px;
+        height: 51px;
+>>>>>>> 6c7d5a08999a1a8879cf4c5bbd97cc9525621012
         
         background: var(--colorE6--);
         border-radius: 4px;
@@ -191,7 +215,11 @@
         border: none;
         cursor: pointer;
        list-style-type:none;
+<<<<<<< HEAD
        margin-left: 950px;
+=======
+       margin-left: 1100px;
+>>>>>>> 6c7d5a08999a1a8879cf4c5bbd97cc9525621012
        margin-top: -100px;
   }
      
