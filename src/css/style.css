@@ -31,15 +31,16 @@
           width: 100%;
         }
 
-        .secaoProdutos {
-          background-color: var(---colorbackgroud--whitef7);
-          align-items: center;
-        }
-        .secaoProdutos .listaProdutos {
+       
+        
+        .sectionProducts .listProducts {
           display: flex;
           flex-wrap: wrap;
+       
         }
-        .secaoProdutos .cardProdutos {
+       
+        
+        .sectionProducts .cardProducts {
           text-align: center;
           background-color: var(---colorbackgroud--white);
         
@@ -53,25 +54,24 @@
           border-radius: 15px;
         }
 
-      .secaoProdutos .cardProdutos h3 {
+      .sectionProducts .cardProducts  h3 {
         font-weight: 700;
         font-size: 20px;
         max-width: 160px;
-        color: var(--colorh3--);
+        color: var(--colorh3_rodape--);
         margin: 28px auto;
       }
-      .secaoProdutos .cardProdutos p {
+      .sectionProducts .cardProducts p {
         font-weight: 700;
         color: var(--colorp--);
         font-size: 18px;
-        margin-bottom: 28px;
+       
       }
-
-      .secaoProdutos .cardProdutos button {
+         .sectionProducts .cardProducts button {
         background: var(--colorbackgroudbutton);
         border: none;
         border-radius: 8px;
-       
+     
         width: 177px;
         height: 41px;
        
@@ -88,7 +88,7 @@
       border-radius: 32px 32px 0px 0px;
 
       }
-      .rodape .carrinho{
+      .rodape .cart{
 
       margin-top: -15px;   
 
@@ -97,7 +97,7 @@
       color: var(--colorbackgroud--whitef);
 
       }
-      .rodape .carrinho p{
+      .rodape .cart p{
       font-family: 'Nunito';
       font-style: italic;
       font-weight: 200;
@@ -118,7 +118,7 @@
       margin-top: -70px;
       }
       
-      .pedido-rectangle{
+      .request-rectangle{
      padding: 30px;
        
      margin-top: 90px;
@@ -132,11 +132,11 @@
     align-items: center;
    
     }
-    .pedido-rectangle img{
+    .request-rectangle img{
       margin-top: -20px;
     }
      
-      .pedido-rectangle p{
+      .request-rectangle p{
         margin-left: 180px;
         margin-top: -60px;
         width: 177px;
@@ -171,7 +171,7 @@
         
       }
       
-      .lixeira{
+      .bin{
       padding: 10px 22px;
        
       margin-left: 960px;
@@ -183,7 +183,7 @@
         border-radius: 4px;
       }
 
-      .botoes_footer {
+      .button_footer {
         border: none;
         cursor: pointer;
       list-style-type:none;
@@ -191,7 +191,7 @@
    margin-top: -100px;
   }
      
-      .botoes_footer .buttonsFinal button{
+      .button_footer .Finalization-buttons button{
         box-sizing: border-box;
        
         padding: 26px;
@@ -215,7 +215,7 @@
         border-radius: 10px;
       }
      
-      .botoes_footer .buttons2 button{
+      .button_footer .buttons2 button{
         box-sizing: border-box;
        
         padding: 25px;
