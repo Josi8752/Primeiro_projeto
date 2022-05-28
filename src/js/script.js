@@ -22,4 +22,6 @@ tagLi.innerHTML = `
 listProducts.appendChild(tagLi)
 
 }
-cardosProduct (productEx)
+
+
+
